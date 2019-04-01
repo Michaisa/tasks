@@ -13,8 +13,23 @@ body,html{
     font-family: Bebas Neue;
     font-weight: 500;
     font-size: 50px;
-    color: #fff;
+    color: black;
 }   
 .sub-judul{
-    
+    font-family: Calibri;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.section2{
+    padding:100px 0px;
+    background: #393e46;
+}
+.col-kiri{
+    background: #929aab;
+    text-align: center;
+}
+.col-kanan{
+    background: #f7f7f7; 
+    text-align: center
 }

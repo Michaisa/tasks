@@ -3,50 +3,69 @@ body,html{
     margin:0 auto;
 }   
 .section1{
-    background-color: #9fd3c7;
-    width: 100%;
-    height: 100%;
-    padding: 210px;
-    text-align: center;
-    background-size: contain;
-    image-resolution: snap;
+    background-image: url(../img/Background%20Section%201.jpg);
+    background-size: cover;
+    padding: 115px;
+    text-align: right;
 }
-.judul{
-    font-family: Bebas Neue;
-    font-weight: 500;
-    font-size: 50px;
-    color: black;
+.judul-section-1{
+    font-family: Century Gothic;
+    font-size: 60px;
+    color: #0C0911;
+    text-align: right;
 }   
-.sub-judul{
-    font-family: Calibri;
-    font-size: 30px;
-    color: black;
-    text-align: center;
-}
 .section2{
     padding:100px 0px;
-    background: #ececec;
+    background: #FEFEFE;
 }
-.col-kiri{
+.judul-section-2{
+    font-family: Century Gothic;
+    font-size: 50px;
+    color: #EDAE00;
+    text-align: left;
+}   
+.sub-judul-section-2{
+    font-family: TW Cen MT;
+    font-size: 25px;
+    color: #0C0911;
+    text-align: left;
+}
+.col-kiri-section-2{
     text-align: center;
 }
-.col-kanan{ 
+.col-kanan-section-2{ 
     text-align: center;
 }
 .section3{
-    min-height: 100px;
-    padding: 50px 0px;
-    background: #9fd3c7;
-    font-family: Bebas Neue;
-    font-size: 30px;
+    padding: 100px 0px;
+    background: #0C0911;
+}
+.judul-section-3{
+    font-family: Century Gothic;
+    font-size: 50px;
+    color: #EDAE00;
+    text-align: left;
+}
+.sub-judul-section-3{
+    font-family: TW Cen MT;
+    font-size: 25px;
+    color: #FEFEFE;
+    text-align: left;
+}
+.section4{
+    padding: 50px 50px;
+    background-color: #EDAE00;
+}
+.judul-section-4{
+    font-family: Century Gothic;
+    font-size: 50px;
+    color: #0C0911;
+    text-align: left;
 }
 .link{
     padding: 10px 15px;
     color: black;
 }
 .link:hover{
-    background:#929aab;
-}
-.col{
-    text-align: center;
+    background:#EDAE00;
 }
